@@ -43,10 +43,10 @@ hora_fim =  time.time() - hora_inicio
 print(f"O processo levou {hora_fim:.2f} segundos.")
 gui.mouseUp()
 
-#np_cords = numpy.array(cords)
+np_cords = numpy.array(cords)
 
 print("Círculo desenhado no Paint!")
-print(np_cords)
+#print(np_cords)
 
 # cria um triangulo na imagem
 gui.moveTo(821, 624)  # 210

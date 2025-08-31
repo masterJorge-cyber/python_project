@@ -18,8 +18,8 @@ try:
             break
 
         # movimenta o mouse levemente (vai e volta)
-        gui.moveRel(50, 0, duration=0.5)
-        gui.moveRel(-50, 0, duration=0.5)
+        gui.moveRel(500, 0, duration=0.5)
+        gui.moveRel(-500, 0, duration=0.5)
 
         # atualiza última posição controlada
         last_pos = gui.position()
